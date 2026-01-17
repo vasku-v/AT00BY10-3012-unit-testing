@@ -1,0 +1,7 @@
+# Reproducible files
+node_modules/
+
+# Environment related files
+.env
+.env.*
+.DS_Store
