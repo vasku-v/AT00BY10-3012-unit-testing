@@ -1,6 +1,5 @@
-// Caculator program for basic arithmetic functions
+// Calculator program for basic arithmetic functions
 
-// function to check if input is a number
 function isNumber(n) {
   if (typeof n !== "number") {
     throw new Error("Inputs must be numbers");

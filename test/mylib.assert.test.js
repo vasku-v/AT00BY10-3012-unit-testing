@@ -5,15 +5,14 @@ const { add, subtract, multiply, divide, isEven } = require("../src/mylib");
 
 describe("mylib.js (assert skeleton)",
   () => {
-    // before function that executes before the first test
     before(() => {
       console.log("Testing starts...");
     });
-    // after function that executes after tests are done
+
     after(() => {
       console.log("Testing completed.");
     });
-    // assert test for add function
+
     describe("add()", () => {
       it("should add two numbers together correctly", () => {
         assert.equal(add(2, 4), 6);
@@ -28,7 +27,7 @@ describe("mylib.js (assert skeleton)",
         assert.throws(() => add(2, "a"), "Inputs must be numbers");
       });
     });
-    // assert test for subtract function
+
     describe("subtract()", () => {
       it("should subtract numbers correctly", () => {
         assert.equal(subtract(5, 3), 2);
@@ -43,7 +42,7 @@ describe("mylib.js (assert skeleton)",
         assert.throws(() => subtract(5, "b"), "Inputs must be numbers");
       });
     });
-    // assert test for multiply function
+
     describe("multiply()", () => {
       it("should multiply numbers correctly", () => {
         assert.equal(multiply(2, 6), 12);
@@ -55,7 +54,7 @@ describe("mylib.js (assert skeleton)",
         assert.equal(multiply(-8, -3), 24);
       });
     });
-    // assert test for divide function
+
     describe("divide()", () => {
       it("should divide numbers correctly", () => {
         assert.equal(divide(10, 5), 2);
@@ -64,7 +63,7 @@ describe("mylib.js (assert skeleton)",
         assert.throws(() => divide(8, 0), "ZeroDivision");
       });
     });
-    // assert test for isEven function
+
     describe("isEven()", () => {
       it("should return true for even numbers", () => {
         assert.isTrue(isEven(8));
