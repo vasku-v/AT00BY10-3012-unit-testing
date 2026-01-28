@@ -17,12 +17,12 @@ node main.js
 # Project Directory Structure
 
 AT00BY10-3012-unit-testing/ 
-├── src/
-│   └── mylib.js
-├── test/ 
-│   └── mylib.assert.test.js 
-├── main.js
-└── package.json
+├── src/  
+│   └── mylib.js  
+├── test/  
+│   └── mylib.assert.test.js  
+├── main.js  
+└── package.json  
 
 # Test structure
 ---
