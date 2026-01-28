@@ -1,3 +1,5 @@
+# Project Documentation
+
 This project includes a simple JavaScript library (mylib.js) which includes basic arithmetic operations and a helper function for checking numeric input. The project also contains a Mocha + Chai unit test suite that verifies the correct behavior of each exported mylib.js function and demonstrates the use of before() and after() hooks.
 
 # Usage
@@ -25,7 +27,6 @@ AT00BY10-3012-unit-testing/
 -- package.json
 
 # Test structure
----
 
 The unit tests are implemented using Mocha together with Chai's Assert style. All tests are placed in one test suite, which also includes:
 - before() hook that runs once before any tests start
