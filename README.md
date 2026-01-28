@@ -1,5 +1,7 @@
 # Project Documentation
 
+This repository contains Vasilissa Vilkki's submission for the Unit Testing assignment in the course "AT00BY10-3012 Ohjelmistojen ylläpito ja testaus".
+
 This project includes a simple JavaScript library (mylib.js) which includes basic arithmetic operations and a helper function for checking numeric input. The project also contains a Mocha + Chai unit test suite that verifies the correct behavior of each exported mylib.js function and demonstrates the use of before() and after() hooks.
 
 # Usage
